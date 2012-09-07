@@ -8,7 +8,7 @@
 
 (def deck
   (for [s allsuits
-        r (drop 3 allranks)]
+        r (drop 2 allranks)]
     (list r s)))
 
 (defn parseint [x]
